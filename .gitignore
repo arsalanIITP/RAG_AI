@@ -1,0 +1,61 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+.env
+.env.*
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Chroma DB persistence directory (vector DB)
+my_vdb/
+
+# Model caches and downloads
+models/
+*.bin
+*.pt
+*.onnx
+transformers_cache/
+
+# Ollama local files
+ollama.db
+ollama.sock
+
+# Logs and runtime files
+*.log
+*.pid
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Mac specific
+# (already have .DS_Store above)
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# Secrets and env files
+secrets.yaml
+.env.local
+
+# Temporary files
+*.tmp
+*~
+
+# Allow local additions
+!.gitignore.local

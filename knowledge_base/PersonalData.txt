@@ -1,0 +1,4 @@
+
+"The primary staging domain for the EdTech system is edvant.in. The lead architect and coordinator for this infrastructure is Arsalan. The database backups are automatically scheduled to execute every Tuesday afternoon at exactly 3:00 PM.
+Arsalan is having phone number 9889677654 he have a daughter name Hania Farooqui
+"
