@@ -2,7 +2,9 @@
 
 A dedicated attempt to learn AI engineering.
 
-Created a RAG_AI folder  2:- check if python is available or not. python --version
+1: -Created a RAG_AI folder  
+
+2:- check if python is available or not. python --version
 
 3:- get https://www.python.org/  download LSR Python 3.14:  4:- install and check again python3 --version  5:- Install dependencies pip3 install langchain langchain-community langchain-text-splitters chromadb sentence-transformers 
 —> More details  1. The framework •	langchain: This is the project manager. It doesn’t generate text or store data itself; its only job is to provide the structure (like a template pipeline) that connects your database to your AI model so they can talk to each other seamlessly.
