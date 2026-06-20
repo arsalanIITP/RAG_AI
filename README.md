@@ -6,7 +6,14 @@ A dedicated attempt to learn AI engineering.
 
 2:- check if python is available or not. python --version
 
-3:- get https://www.python.org/  download LSR Python 3.14:  4:- install and check again python3 --version  5:- Install dependencies pip3 install langchain langchain-community langchain-text-splitters chromadb sentence-transformers 
+3:- get https://www.python.org/  download LSR Python 3.14:  
+
+4:- install and check again python3 --version  
+
+5:- Install dependencies pip3 install langchain langchain-community langchain-text-splitters chromadb sentence-transformers 
+
+
+
 —> More details  1. The framework •	langchain: This is the project manager. It doesn’t generate text or store data itself; its only job is to provide the structure (like a template pipeline) that connects your database to your AI model so they can talk to each other seamlessly.
 * langchain-community: This is the translator/connector. LangChain on its own doesn't know what Ollama or ChromaDB are. The community package contains the specific custom bridges built by other developers to let LangChain plug directly into local tools like Ollama.
 * langchain-text-splitters: This is the smart paper shredder. If you give an AI a massive wall of text all at once, it gets confused or slows down. This library takes your sample.txt file and neatly chops it into small, clean paragraphs (chunks) without cutting words in half.
@@ -29,4 +36,9 @@ Plaintext
 [Your Local Vector Database Store]
 
 
-Check if llama is running Install and run LLM curl -fsSL https://ollama.com/install.sh | sh  ollama --version  Run app file python3 app.py      
+Check if llama is running 
+Install and run LLM 
+curl -fsSL https://ollama.com/install.sh | sh  
+ollama --version  
+
+🚀 Run app file python3 app.py      
